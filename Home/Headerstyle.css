@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+}
+.headercss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin: 0px;
+    background-color: rgb(41, 64, 86);
+    color: #fff;
+}
+.navbar{
+    display: flex;
+    height :40px ;
+    gap: 30px;
+    background-color:rgb(85, 121, 156) ;
+    align-items: center ;
+    position: sticky;
+    top: 2px;
+}
+.nav-a{
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(85, 121, 156);
+    border: solid rgb(85, 121, 156);
+    background-color:  #fff;
+    border-radius: 10px;
+}
